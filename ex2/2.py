@@ -67,13 +67,17 @@ def build_summary(sentences,prior_func,weight_func):
     return summary
 
 
+source_texts = os.listdir('../TeMario/source/')
 
-with open(r'../TeMario/source/ce94ab10-a.txt','r',encoding='latin-1') as file:
-    text = file.read()
-
-sentences = text_to_sentences(text)
-
-basic_summary = build_summary(sentences,uniform_prior,uniform_weight)
+MAP = 0
+for text_file in source_texts:
+	with open(r'../TeMario/source/' + text_file,'r',encoding='latin-1') as file:
+	    text = file.read()
+	sentences = text_to_sentences(text)
+	summary = build_summary(sentences,uniform_prior,uniform_weight)
+	with open(r'../TeMario/sums/' + 'Ext-' + text_file,'r',encoding='latin-1') as summary_file:
+		MAP += AP(summary,summary_file.read())
+MAP /= len(source_texts)
 
 print("BASIC SUMMARY\n")
-print(basic_summary)
+print('MAP:',MAP)
