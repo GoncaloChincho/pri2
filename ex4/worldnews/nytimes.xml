@@ -1,0 +1,819 @@
+<?xml version="1.0"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:nyt="http://www.nytimes.com/namespaces/rss/2.0" version="2.0">
+  <channel>
+    <title>NYT &gt; World</title>
+    <link>https://www.nytimes.com/pages/world/index.html?partner=rss&amp;emc=rss</link>
+    <atom:link rel="self" type="application/rss+xml" href="http://www.nytimes.com/services/xml/rss/nyt/World.xml"/>
+    <description/>
+    <language>en-us</language>
+    <copyright>Copyright 2017  The New York Times Company</copyright>
+    <lastBuildDate>Tue, 05 Dec 2017 12:55:58 GMT </lastBuildDate>
+    <image>
+      <title>NYT &gt; World</title>
+      <url>https://static01.nyt.com/images/misc/NYT_logo_rss_250x40.png</url>
+      <link>https://www.nytimes.com/pages/world/index.html?partner=rss&amp;emc=rss</link>
+    </image>
+    <item>
+      <title>Yemen&#x2019;s Ex-President Killed as Mayhem Convulses Capital</title>
+      <link>https://www.nytimes.com/2017/12/04/world/middleeast/saleh-yemen-houthis.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/12/04/world/middleeast/saleh-yemen-houthis.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/12/04/world/middleeast/saleh-yemen-houthis.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/12/05/world/05Yemen2/05Yemen2-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Former president Ali Abdullah Saleh of Yemen at a rally with his supporters in Sana, Yemen, in August.</media:description>
+      <media:credit>Mohammed Huwais/Agence France-Presse &#x2014; Getty Images</media:credit>
+      <description>The death of the former president, Ali Abdullah Saleh, could plunge war-torn Yemen into new chaos.</description>
+      <dc:creator>SHUAIB ALMOSAWA and BEN HUBBARD</dc:creator>
+      <pubDate>Tue, 05 Dec 2017 00:13:25 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Defense and Military Forces</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Houthis</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Saleh, Ali Abdullah</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Yemen</category>
+    </item>
+    <item>
+      <title>Brexit Talks Hit Hurdle as D.U.P. Balks at Irish Border Plan</title>
+      <link>https://www.nytimes.com/2017/12/04/world/europe/brexit-ireland-theresa-may.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/12/04/world/europe/brexit-ireland-theresa-may.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/12/04/world/europe/brexit-ireland-theresa-may.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/12/05/world/05Brexit/05Brexit-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Prime Minister Theresa May of Britain and the European Commission president, Jean-Claude Juncker, before a meeting in Brussels on Monday.</media:description>
+      <media:credit>Julien Warnand/European Pressphoto Agency</media:credit>
+      <description>A Northern Irish party scuppered a deal Prime Minister Theresa May had reached with the E.U., denying her a much-needed breakthrough in the stalled talks.</description>
+      <dc:creator>STEPHEN CASTLE</dc:creator>
+      <pubDate>Tue, 05 Dec 2017 00:18:59 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Great Britain Withdrawal from EU (Brexit)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Northern Ireland</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Democratic Unionist Party (Northern Ireland)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">May, Theresa M</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Foster, Arlene (1970- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Conservative Party (Great Britain)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Great Britain</category>
+    </item>
+    <item>
+      <title>Warrant for Carles Puigdemont, Catalan Separatist, Is Dropped</title>
+      <link>https://www.nytimes.com/2017/12/05/world/europe/catalonia-independence-carles-puigdemont.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/12/05/world/europe/catalonia-independence-carles-puigdemont.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/12/05/world/europe/catalonia-independence-carles-puigdemont.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/11/18/world/18Catalonia/18Catalonia-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>The ousted Catalan leader Carles Puigdemont, third from left, at an event in Brussels with mayors and former councillors from the region this month.</media:description>
+      <media:credit>Geert Vanden Wijngaert/Associated Press</media:credit>
+      <description>Mr. Puigdemont and four former members of his cabinet had fled to Belgium, saying they could not receive a fair trial at home.</description>
+      <dc:creator>RAPHAEL MINDER</dc:creator>
+      <pubDate>Tue, 05 Dec 2017 11:46:10 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Secession and Independence Movements</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Michel, Charles (1975- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Puigdemont, Carles (1962- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Rajoy, Mariano</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Belgium</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Catalonia (Spain)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Spain</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Politics and Government</category>
+    </item>
+    <item>
+      <title>Kremlin Denies Flynn Influenced Decision on Sanctions</title>
+      <link>https://www.nytimes.com/2017/12/04/world/europe/putin-flynn-kislyak-sanctions.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/12/04/world/europe/putin-flynn-kislyak-sanctions.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/12/04/world/europe/putin-flynn-kislyak-sanctions.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/12/05/world/05Russia/05Russia-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Michael T. Flynn, the former national security adviser to President Trump, after his plea hearing in Washington last week.</media:description>
+      <media:credit>Chip Somodevilla/Getty Images</media:credit>
+      <description>A spokesman said President Putin makes his own decisions, and besides, never knew that Michael T. Flynn had asked Russia not to retaliate for sanctions imposed by President Obama.</description>
+      <dc:creator>IVAN NECHEPURENKO</dc:creator>
+      <pubDate>Mon, 04 Dec 2017 20:13:09 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Russian Interference in 2016 US Elections and Ties to Trump Associates</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Flynn, Michael T</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Kislyak, Sergei I</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Mueller, Robert S III</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Moscow (Russia)</category>
+    </item>
+    <item>
+      <title>North Korea&#x2019;s Missile Launch Gave Airline Pilots a Jolt</title>
+      <link>https://www.nytimes.com/2017/12/05/world/asia/north-korea-missile.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/12/05/world/asia/north-korea-missile.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/12/05/world/asia/north-korea-missile.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/12/06/world/06nkorea-1/06nkorea-1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>North Korea released this photo, which it said showed the launch of its Hwasong-15 missile on Wednesday. Crews from three commercial jets reported seeing its re-entry over the Sea of Japan.</media:description>
+      <media:credit>Korean Central News Agency, via Associated Press</media:credit>
+      <description>Crews from three commercial flights reported seeing what appeared to be the missile the North launched last week. Experts said the risk to planes was low but real.</description>
+      <dc:creator>AUSTIN RAMZY</dc:creator>
+      <pubDate>Tue, 05 Dec 2017 10:40:36 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Airlines and Airplanes</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Missiles and Missile Defense Systems</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Cathay Pacific Airways</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Korean Air Lines</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">North Korea</category>
+    </item>
+    <item>
+      <title>Reza Zarrab, Taped in Jail, Said Lying Was Ticket to Freedom</title>
+      <link>https://www.nytimes.com/2017/12/04/world/europe/zarrab-turkey-iran.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/12/04/world/europe/zarrab-turkey-iran.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/12/04/world/europe/zarrab-turkey-iran.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/12/05/world/05turkeytrial/05turkeytrial-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>&#x201C;Reza says in such a country, in order to get out or get a reduced sentence, you need to admit to crimes you haven&#x2019;t committed.&#x201D; Reza Zarrab in 2013.</media:description>
+      <media:credit>Ozan Kose/Agence France-Presse &#x2014; Getty Images</media:credit>
+      <description>&#x201C;To get out or get a reduced sentence, you need to admit to crimes you haven&#x2019;t committed,&#x201D; the prosecution witness in an Iran sanctions case said.</description>
+      <dc:creator>BENJAMIN WEISER</dc:creator>
+      <pubDate>Tue, 05 Dec 2017 06:48:53 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Zarrab, Reza (1983- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Turkey</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Iran</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Embargoes and Sanctions</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Erdogan, Recep Tayyip</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">United States</category>
+    </item>
+    <item>
+      <title>Five Strongmen, and the Fate of the Arab Spring</title>
+      <link>https://www.nytimes.com/2017/12/04/world/middleeast/ali-abdullah-saleh-strongmen.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/12/04/world/middleeast/ali-abdullah-saleh-strongmen.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/12/04/world/middleeast/ali-abdullah-saleh-strongmen.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/12/05/world/05arabspring-gallery-1/05arabspring-gallery-1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Four leaders waved from a motorcade before an Arab Cooperation Council meeting in Egypt in 1989. From left, Ali Abdullah Saleh of Yemen, Saddam Hussein of Iraq, King Hussein of Jordan, and Hosni Mubarak of Egypt. Mr. Saleh was reported to have been killed on Monday.</media:description>
+      <media:credit>Mike Nelson/Agence France-Presse &#x2014; Getty Images</media:credit>
+      <description>Leaders of five countries at the heart of the protests that erupted in 2011 &#x2014; Egypt, Libya, Syria, Tunisia and Yemen &#x2014; have met very different fates.</description>
+      <dc:creator>RICK GLADSTONE</dc:creator>
+      <pubDate>Tue, 05 Dec 2017 06:48:50 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Middle East and North Africa Unrest (2010- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Saleh, Ali Abdullah</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Assad, Bashar al-</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Mubarak, Hosni</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Qaddafi, Muammar el-</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Ben Ali, Zine El-Abidine</category>
+    </item>
+    <item>
+      <title>Malta Arrests 10 Over Killing of Journalist Daphne Caruana Galizia</title>
+      <link>https://www.nytimes.com/2017/12/04/world/europe/malta-arrests-journalist.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/12/04/world/europe/malta-arrests-journalist.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/12/04/world/europe/malta-arrests-journalist.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/12/05/world/05Malta2/05Malta2-moth-v2.jpg" medium="image" height="151" width="151"/>
+      <media:description>The wreckage of the car in which the journalist Daphne Caruana Galizia was killed in October.</media:description>
+      <media:credit>Agence France-Presse &#x2014; Getty Images</media:credit>
+      <description>The investigative reporter, who uncovered corruption in high places, was killed by a car bomb in October. Her death fueled outrage and drew thousands to demonstrate.</description>
+      <dc:creator>ANDREW HIGGINS and ALAN COWELL</dc:creator>
+      <pubDate>Mon, 04 Dec 2017 18:21:39 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Bombs and Explosives</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Caruana Galizia, Daphne</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Muscat, Joseph (1974- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Malta</category>
+    </item>
+    <item>
+      <title>Krefeld Journal: The German Amateurs Who Discovered &#x2018;Insect Armageddon&#x2019;</title>
+      <link>https://www.nytimes.com/2017/12/04/world/europe/krefeld-germany-insect-armageddon.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/12/04/world/europe/krefeld-germany-insect-armageddon.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/12/04/world/europe/krefeld-germany-insect-armageddon.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/12/05/world/05bugs-1/xxbugs1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Thomas H&#xF6;rren, a member of the Entomological Society Krefeld, collecting beetles from a soil sample.</media:description>
+      <media:credit>Gordon Welters for The New York Times</media:credit>
+      <description>Keeping meticulous records over decades, the Krefeld Entomological Society documented a 75 percent decline in bug populations that shocked the world.</description>
+      <dc:creator>SALLY McGRANE</dc:creator>
+      <pubDate>Mon, 04 Dec 2017 23:42:27 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Insects</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Germany</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Krefeld</category>
+    </item>
+    <item>
+      <title>China Will Lead an Electric Car Future, Ford&#x2019;s Chairman Says</title>
+      <link>https://www.nytimes.com/2017/12/05/business/ford-china-electric-cars.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/12/05/business/ford-china-electric-cars.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/12/05/business/ford-china-electric-cars.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/12/06/business/06fordchina/06fordchina-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Fords at an auto show in Guangzhou, China, last month. Ford Motor said Tuesday that it planned to introduce 15 models in China by 2025 that run at least in part on batteries.</media:description>
+      <media:credit>Bobby Yip/Reuters</media:credit>
+      <description>Ford Motor said Tuesday that it planned to offer 15 new models in China by 2025 that run at least in part on batteries.</description>
+      <dc:creator>KEITH BRADSHER</dc:creator>
+      <pubDate>Tue, 05 Dec 2017 12:31:33 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Ford Motor Co</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">China</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Ford, William Clay Jr</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Electric and Hybrid Vehicles</category>
+    </item>
+    <item>
+      <title>Son of Slain Yemen Leader Is Said to Vow Revenge</title>
+      <link>https://www.nytimes.com/2017/12/05/world/middleeast/yemen-ali-saleh-revenge.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/12/05/world/middleeast/yemen-ali-saleh-revenge.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/12/05/world/middleeast/yemen-ali-saleh-revenge.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/12/06/world/06Yemen/06Yemen-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>The presidential palace in Sana, Yemen, on Tuesday, after warplanes from a Saudi-led coalition struck it and other targets, news reports said.</media:description>
+      <media:credit>Mohammed Huwais/Agence France-Presse &#x2014; Getty Images</media:credit>
+      <description>The warning by Ahmed Ali Saleh, an American-trained former military commander, could signal his emergence as a focus of opposition to Houthi rebels.</description>
+      <dc:creator>SHUAIB ALMOSAWA and ALAN COWELL</dc:creator>
+      <pubDate>Tue, 05 Dec 2017 12:42:53 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Houthis</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Saleh, Ali Abdullah</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Sana (Yemen)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Saudi Arabia</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">United Arab Emirates</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Yemen</category>
+    </item>
+    <item>
+      <title>Google Missed Out on China. Can It Flourish in India?</title>
+      <link>https://www.nytimes.com/2017/12/05/technology/google-india.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/12/05/technology/google-india.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/12/05/technology/google-india.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/12/05/business/05GOOGLEINDIA-1/05GOOGLEINDIA-1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Cellphone users in Jodhpur, India, where Google sent a researcher this week to get feedback about apps. Google is changing core products in India to use less data and work better on low-end smartphones.</media:description>
+      <media:credit>Rebecca Conway for The New York Times</media:credit>
+      <description>As major companies chase India&#x2019;s new internet users, Google is changing core products to work better on low-end smartphones and use less data.</description>
+      <dc:creator>VINDU GOEL</dc:creator>
+      <pubDate>Tue, 05 Dec 2017 09:58:26 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">India</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Google Inc</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Computers and the Internet</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Mobile Applications</category>
+    </item>
+    <item>
+      <title>Amazon&#x2019;s Australian Launch Brings Excitement, Dread and Defiance</title>
+      <link>https://www.nytimes.com/2017/12/04/world/australia/amazon-australian-debut.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/12/04/world/australia/amazon-australian-debut.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/12/04/world/australia/amazon-australian-debut.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/12/06/world/06oz-amazon-1/06oz-amazon-1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Amazon&#x2019;s debut in the Australian marketplace featured only a few hundred sellers &#x2013; or third-party vendors.</media:description>
+      <media:credit>Joe Castro/European Pressphoto Agency</media:credit>
+      <description>The retail giant launched with a modest product offering, seeking to steal a piece of Australia&#x2019;s retail sector.</description>
+      <dc:creator>ADAM BAIDAWI</dc:creator>
+      <pubDate>Tue, 05 Dec 2017 10:57:49 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Amazon.com Inc</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Shopping and Retail</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Australia</category>
+    </item>
+    <item>
+      <title>Honduran Vote Recount Urged as Tally Shows President Is Ahead</title>
+      <link>https://www.nytimes.com/2017/12/04/world/americas/honduras-presidential-election.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/12/04/world/americas/honduras-presidential-election.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/12/04/world/americas/honduras-presidential-election.html?partner=rss&amp;emc=rss"/>
+      <description>Honduran election officials said President Juan Orlando Hern&#xE1;ndez had won a narrow margin of votes, but international monitors asked for recounts.</description>
+      <dc:creator>ELISABETH MALKIN</dc:creator>
+      <pubDate>Tue, 05 Dec 2017 02:56:43 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Honduras</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Elections</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Hernandez, Juan Orlando</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Nasralla, Salvador</category>
+    </item>
+    <item>
+      <title>Australia Diary: Australia Diary: Kindness, Poetry and Song</title>
+      <link>https://www.nytimes.com/2017/12/04/world/australia/australia-diary-kindness-poetry-song.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/12/04/world/australia/australia-diary-kindness-poetry-song.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/12/04/world/australia/australia-diary-kindness-poetry-song.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/11/28/world/australia/00AustraliaMetroDiary_SpiderGif04/00AustraliaMetroDiary_SpiderGif04-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>The huge and terrifying huntsman spider.</media:description>
+      <media:credit>Australian Reptile Park, via Storyful</media:credit>
+      <description>The first installment of a new weekly feature, collecting reader tales from Australia.</description>
+      <dc:creator>DIANA OLIVA CAVE</dc:creator>
+      <pubDate>Tue, 05 Dec 2017 03:23:59 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Australia</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Melbourne (Australia)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Sydney (Australia)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Diaries</category>
+    </item>
+    <item>
+      <title>Utah, Roy Moore, Travel Ban: Your Monday Evening Briefing</title>
+      <link>https://www.nytimes.com/2017/12/04/briefing/utah-roy-moore-travel-ban.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/12/04/briefing/utah-roy-moore-travel-ban.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/12/04/briefing/utah-roy-moore-travel-ban.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/12/04/briefing/04eveningss-slide-FPS2/04eveningss-slide-FPS2-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description/>
+      <media:credit>Jim Lo Scalzo/European Pressphoto Agency</media:credit>
+      <description>Here&#x2019;s what you need to know at the end of the day.</description>
+      <dc:creator>KAREN ZRAICK and SANDRA STEVENSON</dc:creator>
+      <pubDate>Tue, 05 Dec 2017 00:35:23 GMT</pubDate>
+    </item>
+    <item>
+      <title>Ali Abdullah Saleh, Strongman Who Helped Unite Yemen, and Divide It, Dies at 75</title>
+      <link>https://www.nytimes.com/2017/12/04/obituaries/ali-saleh-dead.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/12/04/obituaries/ali-saleh-dead.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/12/04/obituaries/ali-saleh-dead.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/12/05/world/05saleh1/05saleh1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Ali Abdullah Saleh of Yemen at the presidential palace in Sana in 2008.</media:description>
+      <media:credit>Bryan Denton for The New York Times</media:credit>
+      <description>A former president who left a legacy of corruption, he re-emerged to play a major role in his country&#x2019;s civil war.</description>
+      <dc:creator>SCOTT SHANE</dc:creator>
+      <pubDate>Tue, 05 Dec 2017 04:57:58 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Sana (Yemen)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Saleh, Ali Abdullah</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Deaths (Obituaries)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Politics and Government</category>
+    </item>
+    <item>
+      <title>Supreme Court Allows Trump Travel Ban to Take Effect</title>
+      <link>https://www.nytimes.com/2017/12/04/us/politics/trump-travel-ban-supreme-court.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/12/04/us/politics/trump-travel-ban-supreme-court.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/12/04/us/politics/trump-travel-ban-supreme-court.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/12/01/us/politics/05dc-travelban/00dc-travelban-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>The Supreme Court in Washington. The third and newest version of the travel ban, issued by President Trump in September, imposed restrictions on citizens of Chad, Iran, Libya, North Korea, Somalia, Syria, Venezuela and Yemen.</media:description>
+      <media:credit>Alex Wong/Getty Images</media:credit>
+      <description>The decision was a victory for the administration after its mixed success before the court over the summer, when justices considered and later dismissed disputes over the second version.</description>
+      <dc:creator>ADAM LIPTAK</dc:creator>
+      <pubDate>Tue, 05 Dec 2017 00:43:55 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Appointments and Executive Changes</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Decisions and Verdicts</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Executive Orders and Memorandums</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Refugees and Displaced Persons</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Immigration and Emigration</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Constitution (US)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">American Civil Liberties Union</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+    </item>
+    <item>
+      <title>Eurogroup, Looking Past Period of Crisis, Picks New Leader From Portugal</title>
+      <link>https://www.nytimes.com/2017/12/04/business/eurogroup-president-mario-centeno.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/12/04/business/eurogroup-president-mario-centeno.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/12/04/business/eurogroup-president-mario-centeno.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/12/05/business/05EUROGROUP1/05EUROGROUP1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>M&#xE1;rio Centeno, Portugal&#x2019;s finance minister, was chosen to be the new leader of the Eurogroup, which manages crises for the eurozone.</media:description>
+      <media:credit>Olivier Hoslet/European Pressphoto Agency</media:credit>
+      <description>The selection of Mario Centeno reflects a shift by the Eurogroup, which has grappled with the near-constant collapse of the euro in recent years.</description>
+      <dc:creator>JACK EWING</dc:creator>
+      <pubDate>Tue, 05 Dec 2017 04:00:32 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">European Sovereign Debt Crisis (2010- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">European Parliament</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Dijsselbloem, Jeroen</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Schauble, Wolfgang</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Europe</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Centeno, Mario</category>
+    </item>
+    <item>
+      <title>Cyclone Lashes Southern India, Killing at Least 21</title>
+      <link>https://www.nytimes.com/2017/12/04/world/asia/cyclone-ockhi-india.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/12/04/world/asia/cyclone-ockhi-india.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/12/04/world/asia/cyclone-ockhi-india.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/12/05/world/05Cyclone/05Cyclone-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Residents tried makeshift barriers to block sea water from entering their homes after flooding caused by Cyclone Ockhi in Chellanam in the southern state of Kerala, India, on Saturday.</media:description>
+      <media:credit>Sivaram V/Reuters</media:credit>
+      <description>The extent of the damage was unclear and dozens of fishermen were still missing as high winds and flooding swept the area.</description>
+      <dc:creator>KAI SCHULTZ</dc:creator>
+      <pubDate>Mon, 04 Dec 2017 16:12:54 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Cyclones</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">India</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Fishing, Commercial</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Weather</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_keyword">Cyclone Ockhi</category>
+    </item>
+    <item>
+      <title>Judge Frees Some Jailed Catalan Separatists, but Holds Others</title>
+      <link>https://www.nytimes.com/2017/12/04/world/europe/spain-catalonia-independence.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/12/04/world/europe/spain-catalonia-independence.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/12/04/world/europe/spain-catalonia-independence.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/12/02/world/02spain/02spain-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Demonstrators in Barcelona, Spain, last month held banners in Catalan that read, &#x201C;Freedom for the political prisoners.&#x201D;</media:description>
+      <media:credit>Santi Palacios/Associated Press</media:credit>
+      <description>Six backers of the independence effort were allowed out on bail, but four others &#x2014; including the former deputy leader of the region &#x2014; remained in custody.</description>
+      <dc:creator>RAPHAEL MINDER</dc:creator>
+      <pubDate>Mon, 04 Dec 2017 21:36:52 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Secession and Independence Movements</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Puigdemont, Carles (1962- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Catalonia (Spain)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Spain</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Llarena, Pablo</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Junqueras, Oriol</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Politics and Government</category>
+    </item>
+    <item>
+      <title>Gay Australian Politician Proposes During Same-Sex Marriage Debate</title>
+      <link>https://www.nytimes.com/2017/12/04/world/australia/gay-parliament-marriage-proposal.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/12/04/world/australia/gay-parliament-marriage-proposal.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/12/04/world/australia/gay-parliament-marriage-proposal.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/12/05/world/05oz-gaymarriage-1/05oz-gaymarriage-1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Tim Wilson, a liberal member of Parliament in Australia, during a debate Monday about same-sex marriage in which he proposed to his partner, Ryan Bolger.</media:description>
+      <media:credit>Lukas Coch/Australian Associated Press, via Reuters</media:credit>
+      <description>The marriage proposal came as a bill legalizing same-sex unions made its way through the final stages of passage in Parliament.</description>
+      <dc:creator>ISABELLA KWAI</dc:creator>
+      <pubDate>Mon, 04 Dec 2017 06:13:33 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Same-Sex Marriage, Civil Unions and Domestic Partnerships</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Legislatures and Parliaments</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Marriages</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Australia</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Sydney (Australia)</category>
+    </item>
+    <item>
+      <title>U.S. and South Korea Start Air Force Drills Amid Heightened Tensions</title>
+      <link>https://www.nytimes.com/2017/12/04/world/asia/us-south-korea-drills.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/12/04/world/asia/us-south-korea-drills.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/12/04/world/asia/us-south-korea-drills.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/12/05/world/05skorea-sub2/05skorea-sub2-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>A United States Air Force F-22 Raptor taking off Monday from an air base in Gwangju, South Korea.</media:description>
+      <media:credit>Yonhap, via Associated Press</media:credit>
+      <description>The exercises will include simulated strikes on North Korean nuclear and missile testing sites and come a week after the North tested a ballistic missile.</description>
+      <dc:creator>GERRY MULLANY</dc:creator>
+      <pubDate>Mon, 04 Dec 2017 09:24:54 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Defense and Military Forces</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Defense and Military Forces</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Nuclear Tests</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Defense Department</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Korean Central News Agency</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Senate Committee on Armed Services</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">United States Air Force</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Graham, Lindsey</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">North Korea</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">South Korea</category>
+    </item>
+    <item>
+      <title>Talk of a Peace Plan That Snubs Palestinians Roils Middle East</title>
+      <link>https://www.nytimes.com/2017/12/03/world/middleeast/palestinian-saudi-peace-plan.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/12/03/world/middleeast/palestinian-saudi-peace-plan.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/12/03/world/middleeast/palestinian-saudi-peace-plan.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/12/04/world/04Mideast1/04Mideast1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Tourists with a panoramic view of Jerusalem&#x2019;s Old City.</media:description>
+      <media:credit>Thomas Coex/Agence France-Presse &#x2014; Getty Images</media:credit>
+      <description>A plan that the Saudi crown prince was said to foist on the Palestinians would offer them limited sovereignty and deny them Jerusalem as the capital.</description>
+      <dc:creator>ANNE BARNARD, DAVID M. HALBFINGER and PETER BAKER</dc:creator>
+      <pubDate>Mon, 04 Dec 2017 15:29:39 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Palestinians</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Israel</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States International Relations</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Jerusalem (Israel)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">East Jerusalem</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Israeli Settlements</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Gaza Strip</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Abbas, Mahmoud</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Mohammed bin Salman (1985- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Kushner, Jared</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">United States Politics and Government</category>
+    </item>
+    <item>
+      <title>Huge Protests in Honduras as Contested Vote Crisis Escalates</title>
+      <link>https://www.nytimes.com/2017/12/03/world/americas/honduras-election-hernandez-nasralla.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/12/03/world/americas/honduras-election-hernandez-nasralla.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/12/03/world/americas/honduras-election-hernandez-nasralla.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/12/04/world/04honduras1/04honduras1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Supporters of Salvador Nasralla, the main presidential opposition candidate, protesting in Tegucigalpa, Honduras, on Sunday.</media:description>
+      <media:credit>Orlando Sierra/Agence France-Presse &#x2014; Getty Images</media:credit>
+      <description>Marchers demanded an impartial count of last week&#x2019;s presidential vote as negotiations between the electoral commission and the opposition broke down.</description>
+      <dc:creator>ELISABETH MALKIN</dc:creator>
+      <pubDate>Mon, 04 Dec 2017 02:16:22 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Honduras</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Elections</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Demonstrations, Protests and Riots</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Hernandez, Juan Orlando</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Nasralla, Salvador</category>
+    </item>
+    <item>
+      <title>Venezuela Plans a Cryptocurrency, Maduro Says</title>
+      <link>https://www.nytimes.com/2017/12/03/world/americas/venezuela-cryptocurrency-maduro.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/12/03/world/americas/venezuela-cryptocurrency-maduro.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/12/03/world/americas/venezuela-cryptocurrency-maduro.html?partner=rss&amp;emc=rss"/>
+      <description>The &#x201C;petro&#x201D; will be used in the country&#x2019;s fight against the Trump administration&#x2019;s financial &#x201C;blockade,&#x201D; President Nicolas Maduro said.</description>
+      <dc:creator>THE ASSOCIATED PRESS</dc:creator>
+      <pubDate>Mon, 04 Dec 2017 00:03:45 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Venezuela</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Currency</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Maduro, Nicolas</category>
+    </item>
+    <item>
+      <title>Corsican Nationalists Make Strong Showing in Election</title>
+      <link>https://www.nytimes.com/2017/12/03/world/europe/corsica-election-france.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/12/03/world/europe/corsica-election-france.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/12/03/world/europe/corsica-election-france.html?partner=rss&amp;emc=rss"/>
+      <description>Nationalists running in the French Mediterranean island&#x2019;s territorial election won almost half the vote. The second will take place on Sunday.</description>
+      <dc:creator>REUTERS</dc:creator>
+      <pubDate>Sun, 03 Dec 2017 23:31:55 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Corsica</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Elections</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">France</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Macron, Emmanuel (1977- )</category>
+    </item>
+    <item>
+      <title>U.S. Quits Migration Pact, Saying It Infringes on Sovereignty</title>
+      <link>https://www.nytimes.com/2017/12/03/world/americas/united-nations-migration-pact.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/12/03/world/americas/united-nations-migration-pact.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/12/03/world/americas/united-nations-migration-pact.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/12/04/business/04nations1/04nations1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Migrants rescued on the Mediterranean Sea, off the Libyan coast, in August.</media:description>
+      <media:credit>Angelos Tzortzinis/Agence France-Presse &#x2014; Getty Images</media:credit>
+      <description>Critics said the Trump administration&#x2019;s withdrawal from U.N. talks on the migration crisis had reinforced an image of renewed American isolationism.</description>
+      <dc:creator>RICK GLADSTONE</dc:creator>
+      <pubDate>Sun, 03 Dec 2017 23:26:22 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">United Nations</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Refugees and Displaced Persons</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Haley, Nikki R</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States International Relations</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Immigration and Emigration</category>
+    </item>
+    <item>
+      <title>Help Assad or Leave Cities in Ruins? The Politics of Rebuilding Syria</title>
+      <link>https://www.nytimes.com/2017/12/03/world/middleeast/syria-war-rebuilding-homs.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/12/03/world/middleeast/syria-war-rebuilding-homs.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/12/03/world/middleeast/syria-war-rebuilding-homs.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/12/04/world/xxsyria1/xxsyria1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Syria has been ravaged by years of war, but President Bashar al-Assad is still in power. In July, his portrait hung in Al Waer, once a well-to-do area of Homs, now a ghost of its former self.</media:description>
+      <media:credit>Omar Sanadiki/Reuters</media:credit>
+      <description>Ravaged areas in the city of Homs symbolize President Assad&#x2019;s ruthless tactics and embody a looming challenge as the war approaches an end: the politics of reconstruction.</description>
+      <dc:creator>SOMINI SENGUPTA</dc:creator>
+      <pubDate>Sun, 03 Dec 2017 22:54:12 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Syria</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Homs (Syria)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Civilian Casualties</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Assad, Bashar al-</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">United States International Relations</category>
+    </item>
+    <item>
+      <title>China&#x2019;s A.I. Advances Help Its Tech Industry, and State Security</title>
+      <link>https://www.nytimes.com/2017/12/03/business/china-artificial-intelligence.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/12/03/business/china-artificial-intelligence.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/12/03/business/china-artificial-intelligence.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/12/04/business/04chinavoice1/04chinavoice1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Liu Qingfeng, the chairman of iFlyTek, after his presentation at a conference in Beijing about artificial intelligence.</media:description>
+      <media:credit>Giulia Marchi for The New York Times</media:credit>
+      <description>Global car brands and Chinese authorities alike embrace iFlyTek&#x2019;s voice recognition know-how, illustrating the dystopian possibilities behind the technology.</description>
+      <dc:creator>PAUL MOZUR and KEITH BRADSHER</dc:creator>
+      <pubDate>Sun, 03 Dec 2017 23:32:47 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">China</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Artificial Intelligence</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">iFlyTek Co Ltd</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Privacy</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Human Rights and Human Rights Violations</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Voice Recognition Systems</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Driverless and Semiautonomous Vehicles</category>
+    </item>
+    <item>
+      <title>The New York Times Is Awarded German Prize for &#x2018;International Understanding&#x2019;</title>
+      <link>https://www.nytimes.com/2017/12/03/world/europe/marion-donhoff-prize.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/12/03/world/europe/marion-donhoff-prize.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/12/03/world/europe/marion-donhoff-prize.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/12/04/business/04hamburg1/04hamburg1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>President Frank-Walter Steinmeier of Germany, center, awarding the Marion D&#x4E7;nhoff Prize to Arthur O. Sulzberger Jr., right, the publisher of The New York Times, and to Dean Baquet, its executive editor.</media:description>
+      <media:credit>Augustin Christian/Rex Features, via Associated Press</media:credit>
+      <description>At a ceremony in Hamburg, the German president praised The Times as &#x201C;a flagship of freedom of the press&#x201D; and &#x201C;a beacon of reason in an age of rampant unreason.&#x201D;</description>
+      <dc:creator>STEVEN ERLANGER</dc:creator>
+      <pubDate>Sun, 03 Dec 2017 21:33:02 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">New York Times</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Die Zeit</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Awards, Decorations and Honors</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Sulzberger, Arthur Jr</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Baquet, Dean</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Germany</category>
+    </item>
+    <item>
+      <title>Trudeau Steps Up on Trade for Canada, as America Under Trump Pulls Back</title>
+      <link>https://www.nytimes.com/2017/12/03/world/canada/trudeau-trade-china-nafta-tpp.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/12/03/world/canada/trudeau-trade-china-nafta-tpp.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/12/03/world/canada/trudeau-trade-china-nafta-tpp.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/12/04/world/04canada-trade-sub/04canada-trade-sub-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Prime Minister Justin Trudeau arriving in Beijing on Sunday.</media:description>
+      <media:credit>Sean Kilpatrick/The Canadian Press, via Associated Press</media:credit>
+      <description>Partly as insurance against Nafta&#x2019;s collapse and perhaps a way to show Washington it has options, Canada is chasing after other free trade deals.</description>
+      <dc:creator>IAN AUSTEN and ANA SWANSON</dc:creator>
+      <pubDate>Mon, 04 Dec 2017 21:12:36 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">International Trade and World Market</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Trans-Pacific Partnership</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">North American Free Trade Agreement</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Canada</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">China</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trudeau, Justin</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Economic Conditions and Trends</category>
+    </item>
+    <item>
+      <title>As China Rises, Australia Asks Itself: Can It Rely on America?</title>
+      <link>https://www.nytimes.com/2017/12/03/world/australia/australia-us-china-alliances.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/12/03/world/australia/australia-us-china-alliances.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/12/03/world/australia/australia-us-china-alliances.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/12/04/world/01china-australia-1/01china-australia-1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>United States Marines marching in Darwin, Australia, this year on Anzac Day, a day of remembrance for veterans. The United States has long been Australia&#x2019;s security guarantor.</media:description>
+      <media:credit>David Dare Parker for The New York Times</media:credit>
+      <description>The government and a prominent strategist clash on whether the United States will remain dominant in Asia, and whether Australia should go it alone.</description>
+      <dc:creator>JANE PERLEZ and DAMIEN CAVE</dc:creator>
+      <pubDate>Sun, 03 Dec 2017 18:32:18 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Australia</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States International Relations</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">China</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Nuclear Weapons</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">International Trade and World Market</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Turnbull, Malcolm (1954- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Far East, South and Southeast Asia and Pacific Areas</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">White, Hugh (1953- )</category>
+    </item>
+    <item>
+      <title>11-Year-Old Has Spent Her Life in Jail, a Serial Killer as a Cellmate</title>
+      <link>https://www.nytimes.com/2017/12/03/world/asia/afghanistan-children-prison.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/12/03/world/asia/afghanistan-children-prison.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/12/03/world/asia/afghanistan-children-prison.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/12/03/world/04jailgirl1/04jailgirl1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Shirin Gul and her daughter Meena, 11, in the women&#x2019;s wing of the Nangarhar provincial prison, in Jalalabad, Afghanistan, where Ms. Gul is serving a life sentence.</media:description>
+      <media:credit>Mauricio Lima for The New York Times</media:credit>
+      <description>Meena, an Afghan girl born behind bars, has never been outside, and her convicted mother can keep her until she is 18. She is not the only child there, either.</description>
+      <dc:creator>ROD NORDLAND</dc:creator>
+      <pubDate>Mon, 04 Dec 2017 00:32:51 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Serial Murders</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Prisons and Prisoners</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Gul, Shirin</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Afghanistan</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Children and Childhood</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Jalalabad (Afghanistan)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">vis-photo</category>
+    </item>
+    <item>
+      <title>She Wants Independence. Is That Dangerous?</title>
+      <link>https://www.nytimes.com/video/world/middleeast/100000005015451/female-independence-in-egypt.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/video/world/middleeast/100000005015451/female-independence-in-egypt.html</guid>
+      <description>Esraa is looking to rent an apartment with her friends. In Egypt, where personal freedom can be routinely compromised in the name of religion, family and country, that makes her a rebel. Like many in her generation, she is gasping for change. Can she win?</description>
+      <dc:creator/>
+      <pubDate>Sun, 03 Dec 2017 17:32:39 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/nyt_geo">Egypt</category>
+      <category domain="http://www.nytimes.com/namespaces/nyt_per">Meatto, Mark</category>
+    </item>
+    <item>
+      <title>Major Royal News. Impose Story of Your Choice.</title>
+      <link>https://www.nytimes.com/2017/12/03/insider/major-royal-news-impose-story-of-your-choice.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/12/03/insider/major-royal-news-impose-story-of-your-choice.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/12/03/insider/major-royal-news-impose-story-of-your-choice.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/12/02/pageoneplus/02a2royals/02a2royals-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>The Duchess and Duke of Cambridge after the birth of their son, Prince George, in 2013.</media:description>
+      <media:credit>Kirsty Wigglesworth/Associated Press</media:credit>
+      <description>&#x201C;Because there is so little material of substance to go on, because the public is allowed to see only public events, we impose on them any narrative we like.&#x201D;</description>
+      <dc:creator>SARAH LYALL</dc:creator>
+      <pubDate>Sun, 03 Dec 2017 16:48:16 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Royal Families</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Great Britain</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">News and News Media</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Harry, Prince of Wales</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Markle, Meghan</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Catherine, Duchess of Cambridge</category>
+    </item>
+    <item>
+      <title>U.A.E. Denies Yemen Rebels Fired Missile at Abu Dhabi Nuclear Plant</title>
+      <link>https://www.nytimes.com/2017/12/03/world/middleeast/yemen-houthi-missile-abu-dhabi.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/12/03/world/middleeast/yemen-houthi-missile-abu-dhabi.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/12/03/world/middleeast/yemen-houthi-missile-abu-dhabi.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/12/04/world/04Yemen3/04Yemen3-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Houthi fighters in Sana, Yemen, on Sunday.</media:description>
+      <media:credit>Mohammed Huwais/Agence France-Presse &#x2014; Getty Images</media:credit>
+      <description>The Houthi rebels claimed they had launched a cruise missile against the $20 billion plant in retaliation for a Saudi-led blockade.</description>
+      <dc:creator>SHUAIB ALMOSAWA and THOMAS ERDBRINK</dc:creator>
+      <pubDate>Sun, 03 Dec 2017 22:13:20 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Nuclear Energy</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Factories and Manufacturing</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Abu Dhabi (United Arab Emirates)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Yemen</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">United Arab Emirates</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Defense and Military Forces</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Houthis</category>
+    </item>
+    <item>
+      <title>China&#x2019;s Top Ideologue Calls for Tight Control of Internet</title>
+      <link>https://www.nytimes.com/2017/12/03/world/asia/china-internet-censorship-wang-huning.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/12/03/world/asia/china-internet-censorship-wang-huning.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/12/03/world/asia/china-internet-censorship-wang-huning.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/12/03/business/04china-internet/04china-internet-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Wang Huning spoke Sunday at the opening of the fourth World Internet Conference in Wuzhen, China.</media:description>
+      <media:credit>Aly Song/Reuters</media:credit>
+      <description>Speaking to an audience that included the heads of Apple and Google, Wang Huning said China should be free to govern, and censor, its internet.</description>
+      <dc:creator>PAUL MOZUR</dc:creator>
+      <pubDate>Sun, 03 Dec 2017 10:19:01 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Censorship</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">China</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Computers and the Internet</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Computer Security</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Wang Huning (1955- )</category>
+    </item>
+    <item>
+      <title>Saleh&#x2019;s Offer to &#x2018;Turn a New Page&#x2019; in Yemen Is Welcomed by Saudi Coalition</title>
+      <link>https://www.nytimes.com/2017/12/02/world/middleeast/yemen-saleh-houthis-saudi-coalition.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/12/02/world/middleeast/yemen-saleh-houthis-saudi-coalition.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/12/02/world/middleeast/yemen-saleh-houthis-saudi-coalition.html?partner=rss&amp;emc=rss"/>
+      <description>Ali Abdullah Saleh, the former president of Yemen, said he was ready for a &#x201C;new page&#x201D; in ties with the Saudi-led coalition if it stopped attacks on his country.</description>
+      <dc:creator>REUTERS</dc:creator>
+      <pubDate>Sun, 03 Dec 2017 03:31:49 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Yemen</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Saleh, Ali Abdullah</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Hadi, Abdu Rabbu Mansour</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Saudi Arabia</category>
+    </item>
+    <item>
+      <title>Reporter&#x2019;s Notebook: Pope Defends His Myanmar Diplomacy: &#x2018;I Did Not Negotiate With the Truth&#x2019;</title>
+      <link>https://www.nytimes.com/2017/12/02/world/asia/pope-francis-myanmar-rohingya.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/12/02/world/asia/pope-francis-myanmar-rohingya.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/12/02/world/asia/pope-francis-myanmar-rohingya.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/12/03/business/03pope/03pope-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Pope Francis, during a news conference aboard his plane on Saturday, said he was &#x201C;very satisfied&#x201D; with the meetings he had in Myanmar and Bangladesh.</media:description>
+      <media:credit>Pool photo by Vincenzo Pinto</media:credit>
+      <description>Pope Francis, criticized for not using the word &#x201C;Rohingya&#x201D; while in Myanmar, said that using the term &#x201C;would have been a door slammed in the face.&#x201D;</description>
+      <dc:creator>JASON HOROWITZ</dc:creator>
+      <pubDate>Sun, 03 Dec 2017 01:01:09 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Francis</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Min Aung Hlaing</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Myanmar</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Dhaka (Bangladesh)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Roman Catholic Church</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Rohingya (Ethnic Group)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Refugees and Displaced Persons</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Politics and Government</category>
+    </item>
+    <item>
+      <title>A Man Among Female Leaders: &#x2018;The Risk of Mansplaining Is Very High&#x2019;</title>
+      <link>https://www.nytimes.com/2017/12/02/world/europe/iceland-gender-equality-women-political-leaders.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/12/02/world/europe/iceland-gender-equality-women-political-leaders.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/12/02/world/europe/iceland-gender-equality-women-political-leaders.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/12/03/world/europe/03Iceland/Iceland-slide-03XZ-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>A rare man at a summit of women political leaders: Xavier Prats Monn&#xE9; turns heads in his suit.</media:description>
+      <media:credit>Katrin Bennhold/The New York Times</media:credit>
+      <description>A Times reporter shadows a male speaker at a summit meeting of female political leaders in Iceland, the most gender-egalitarian country in the world.</description>
+      <dc:creator>KATRIN BENNHOLD</dc:creator>
+      <pubDate>Sun, 03 Dec 2017 10:59:14 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">vis-dispatch</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Iceland</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Women and Girls</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Sexual Harassment</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Women's Rights</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">European Commission</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Prats Monne, Xavier</category>
+    </item>
+    <item>
+      <title>At Iran Sanctions Trial: A Star Witness Revealed, and a Sleepy Juror</title>
+      <link>https://www.nytimes.com/2017/12/02/world/europe/turkey-reza-zarrab-trial.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/12/02/world/europe/turkey-reza-zarrab-trial.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/12/02/world/europe/turkey-reza-zarrab-trial.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/12/03/world/03turkey-trial/03turkey-trial-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Reza Zarrab in Istanbul in 2013. He has testified in a New York trial about how he carried out a scheme to smuggle Turkish gold for Iranian oil.</media:description>
+      <media:credit>Ozan Kose/Agence France-Presse &#x2014; Getty Images</media:credit>
+      <description>Here&#x2019;s what we&#x2019;ve learned in the first week of a Manhattan trial over a vast, billion-dollar conspiracy to violate United States sanctions by swapping Turkish gold for Iranian oil.</description>
+      <dc:creator>BENJAMIN WEISER</dc:creator>
+      <pubDate>Sat, 02 Dec 2017 21:19:31 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Zarrab, Reza (1983- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Embargoes and Sanctions</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Bribery and Kickbacks</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Turkey</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Erdogan, Recep Tayyip</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Gulen, Fethullah</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">United States</category>
+    </item>
+    <item>
+      <title>A Wary Response, So Far, on Trump&#x2019;s Expected Recognition of Jerusalem</title>
+      <link>https://www.nytimes.com/2017/12/02/world/middleeast/trump-israel-jerusalem-capital.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/12/02/world/middleeast/trump-israel-jerusalem-capital.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/12/02/world/middleeast/trump-israel-jerusalem-capital.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/12/03/world/03JERUSALEM/03JERUSALEM-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>The Damascus Gate to Jerusalem&#x2019;s Old City. President Trump is expected to break decades of precedent by declaring Jerusalem the capital of Israel.</media:description>
+      <media:credit>Bernat Armangue/Associated Press</media:credit>
+      <description>Arabs and Israelis alike were impatient to see whether Mr. Trump would really declare Jerusalem the capital of Israel and how he might hedge it.</description>
+      <dc:creator>DAVID M. HALBFINGER</dc:creator>
+      <pubDate>Mon, 04 Dec 2017 01:46:51 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Israel</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States International Relations</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Jerusalem (Israel)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Palestinians</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Arab-Israeli War (1967)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Diplomatic Service, Embassies and Consulates</category>
+    </item>
+    <item>
+      <title>Emiratis Arrest Egyptian Presidential Candidate Ahmed Shafik, Lawyer Says</title>
+      <link>https://www.nytimes.com/2017/12/02/world/middleeast/egypt-ahmed-shafik-arrest.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/12/02/world/middleeast/egypt-ahmed-shafik-arrest.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/12/02/world/middleeast/egypt-ahmed-shafik-arrest.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/12/03/world/03EgyptShafik2/03EgyptShafik2-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Ahmed Shafik in 2012, when he narrowly lost Egypt&#x2019;s only free presidential election.</media:description>
+      <media:credit>Amr Abdallah Dalsh/Reuters</media:credit>
+      <description>The authorities planned to deport Mr. Shafik, who has been living in the United Arab Emirates, back to Egypt, his lawyer said. He could face treason charges.</description>
+      <dc:creator>NOUR YOUSSEF and DAVID D. KIRKPATRICK</dc:creator>
+      <pubDate>Sat, 02 Dec 2017 19:35:40 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Shafik, Ahmed</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Sisi, Abdel Fattah el-</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Elections</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Egypt</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">United Arab Emirates</category>
+    </item>
+    <item>
+      <title>In a Venezuela Ravaged by Inflation, &#x2018;a Race for Survival&#x2019;</title>
+      <link>https://www.nytimes.com/2017/12/02/world/americas/venezuela-nicholas-maduro-inflation-hyperinflation.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/12/02/world/americas/venezuela-nicholas-maduro-inflation-hyperinflation.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/12/02/world/americas/venezuela-nicholas-maduro-inflation-hyperinflation.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/12/03/world/03venezuela-inflation/03venezuela-inflation-moth-v3.jpg" medium="image" height="151" width="151"/>
+      <media:description>A couple looking at the newly increased prices for food in a store&#x2019;s window display in Caracas. Venezuelans of all economic classes have been buffeted by sharply rising costs.</media:description>
+      <media:credit>Meridith Kohut for The New York Times</media:credit>
+      <description>Venezuelans of all classes have been hit hard by sharply rising costs, and the economic turmoil has turned the most basic tasks &#x2014; like food shopping and commuting &#x2014; into feats of endurance.</description>
+      <dc:creator>KIRK SEMPLE</dc:creator>
+      <pubDate>Mon, 04 Dec 2017 18:54:55 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">vis-photo</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Inflation (Economics)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Venezuela</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Caracas (Venezuela)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Economic Conditions and Trends</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Black Markets</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Labor and Jobs</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Maduro, Nicolas</category>
+    </item>
+    <item>
+      <title>How Ireland Moved to the Left: &#x2018;The Demise of the Church&#x2019;</title>
+      <link>https://www.nytimes.com/2017/12/02/world/europe/ireland-abortion-abuse-church.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2017/12/02/world/europe/ireland-abortion-abuse-church.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2017/12/02/world/europe/ireland-abortion-abuse-church.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/12/03/world/03ireland-change/xxireland-change-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>A vigil in Dublin in October commemorating the fifth anniversary of the death of Savita Halappanavar, who died after she was denied a medically recommended abortion following a miscarriage.</media:description>
+      <media:credit>Niall Carson/Press Association, via Associated Press</media:credit>
+      <description>In recent years, the one-time bastion of Catholic conservatism has moved left on same-sex marriage and gay rights, and is poised to repeal a constitutional ban on abortion.</description>
+      <dc:creator>LIAM STACK</dc:creator>
+      <pubDate>Sat, 02 Dec 2017 15:32:58 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Ireland</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Roman Catholic Church</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Abortion</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Constitutional Amendments</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Same-Sex Marriage, Civil Unions and Domestic Partnerships</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Immigration and Emigration</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Varadkar, Leo</category>
+    </item>
+  </channel>
+</rss>
