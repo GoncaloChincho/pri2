@@ -13,7 +13,15 @@ from collections import Counter
 
 exec(open('../functions.py').read())
 
-
+def build_graph_alist(documents,cosine_matrix,t):
+    graph = {}
+    for i in range(len(documents)):
+        id = str(i)
+        graph[id] = []
+        for j in range(len(cosine_matrix[i])):
+            if cosine_matrix[i][j] >= t and i != j:
+                graph[id].append(str(j))
+    return graph
 
 def prestige(uid,ranks,links):
     sum = 0

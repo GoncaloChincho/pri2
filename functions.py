@@ -9,21 +9,8 @@ from wordsegment import load, segment
 cachedStopWords = stopwords.words("english")
 
 
-#Build graph adjacency list
-def build_graph_alist(documents,cosine_matrix,t):
-    graph = {}
-    for i in range(len(documents)):
-        id = str(i)
-        graph[id] = []
-        for j in range(len(cosine_matrix[i])):
-            if cosine_matrix[i][j] >= t and i != j:
-                graph[id].append(str(j))
-    return graph
-
 def text_to_sentences(text):
-	text = text.replace('\n','').lower()
-	text = text.replace('. ','.')
-	text = text.replace('.','. ')
+	text = re.sub('(\.)?(\n)+','. ',text).lower()
 	tokenizer = nltk.data.load('tokenizers/punkt/english.pickle')
 
 	text = '\n-----\n'.join(tokenizer.tokenize(text))
