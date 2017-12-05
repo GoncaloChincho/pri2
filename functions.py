@@ -8,7 +8,7 @@ from wordsegment import load, segment
 
 cachedStopWords = stopwords.words("english")
 
-
+#returns array of sentences
 def text_to_sentences(text):
 	text = re.sub('(\.)?(\n)+','. ',text).lower()
 	tokenizer = nltk.data.load('tokenizers/punkt/english.pickle')
@@ -16,6 +16,29 @@ def text_to_sentences(text):
 	text = '\n-----\n'.join(tokenizer.tokenize(text))
 	return text.split('\n-----\n')
 
+
+#both args are text
+def AP(systemSummaries, targetSummaries):
+	systemSents = text_to_sentences(systemSummaries)
+	targetSents = text_to_sentences(targetSummaries)
+
+	AP = 0
+	positives = 0
+	total = 0
+	for sent in systemSents:
+		total += 1
+		if sent in targetSents:
+			positives += 1
+			AP += positives/ total
+	return AP/len(targetSents)
+
+
+
+
+
+
+
+#-----------------Not being used---------------------------#
 def stem_sentence(sentence):
     stemmer = PorterStemmer()
     load()
@@ -33,21 +56,6 @@ def stem_text(text):
     for sentence in sentences:
         stemmed.append(stem_sentence(sentence))
     return stemmed
-
-#both args are text
-def AP(systemSummaries, targetSummaries):
-	systemSents = text_to_sentences(systemSummaries)
-	targetSents = text_to_sentences(targetSummaries)
-
-	AP = 0
-	positives = 0
-	total = 0
-	for sent in systemSents:
-		total += 1
-		if sent in targetSents:
-			positives += 1
-			AP += positives/ total
-	return AP/len(targetSents)
 
 def remove_stopwords(text):
     return' '.join([word for word in text.split() if word not in cachedStopWords])
