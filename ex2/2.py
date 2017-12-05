@@ -1,6 +1,7 @@
 import os
 import numpy as np
 import nltk
+import sys
 
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
@@ -66,16 +67,21 @@ def build_summary(sentences,prior_func,weight_func):
         summary += sentences[int(i[0])] + '\n'
     return summary
 
+if len(sys.argv) > 1:
+	source_path = sys.argv[1]
+	sums_path = sys.argv[2]
+else: 
+	source_path = '../TeMario/source/'
+	sums_path = '../TeMario/sums/'
 
-source_texts = os.listdir('../TeMario/source/')
-
+source_texts = os.listdir(source_path)
 MAP = 0
 for text_file in source_texts:
-	with open(r'../TeMario/source/' + text_file,'r',encoding='latin-1') as file:
+	with open(source_path + text_file,'r',encoding='latin-1') as file:
 	    text = file.read()
 	sentences = text_to_sentences(text)
 	summary = build_summary(sentences,uniform_prior,uniform_weight)
-	with open(r'../TeMario/sums/' + 'Ext-' + text_file,'r',encoding='latin-1') as summary_file:
+	with open(sums_path+ 'Ext-' + text_file,'r',encoding='latin-1') as summary_file:
 		MAP += AP(summary,summary_file.read())
 MAP /= len(source_texts)
 
