@@ -39,10 +39,10 @@ def get_cosine_similarities_matrix(sentences):
     X = vec.fit_transform(sentences)
     return cosine_similarity(X)
 
-def cos_sim(sentence1,sentence2,sentences,cosine_matrix):
-    s1i = sentences.index(sentence1)
-    s2i = sentences.index(sentence2)
-    return cosine_matrix[s1i][s2i]
+#receives cossim matrix for performance reasons
+#receives indexes for performance reasons aswell...
+def cos_sim(sent1_index,sent2_index,sentences,cosine_matrix):
+    return cosine_matrix[sent1_index][sent2_index]
 
 
 
