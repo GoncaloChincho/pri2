@@ -11,19 +11,6 @@ exec(open('../functions.py').read())
 exec(open('priors.py').read())
 exec(open('weights.py').read())
 
-def build_graph_matrix(sentences,weight_func,t):
-    if not callable(weight_func):
-        return 'Not functions!'
-    nsents = len(sentences)
-    weights = np.zeros([nsents,nsents])
-    
-    cos_matrix = get_cosine_similarities_matrix(sentences)
-    #create weights
-    for i in range(len(sentences)):
-        for j in range(len(sentences)):
-            weights[i][j] = weight_func(i,j,sentences,cos_matrix,t)
-    return weights
-
 def build_priors(sentences,graph,prior_func):
 	if not callable(prior_func):
 		return 'Not functions!'
@@ -53,8 +40,9 @@ def rank(weights,priors,itermax,damping):
     while i < itermax:
         aux = pr
         for j in range(nsents):
-            random = damping * (priors[j]/np.sum(priors))
-
+            random = damping * priors[j]
+            if random != 0:
+                random /= np.sum(priors)
             not_random = (1 - damping) * prestige(j,pr,weights)
             aux[j] = random + not_random
         pr = aux
@@ -99,7 +87,7 @@ for thresh in tvals:
         with open(source_path + text_file,'r',encoding='Latin-1') as file: #source_path + text_file
             text = file.read()
         sentences = text_to_sentences(text)
-        summary = build_summary(sentences,uniform_prior,uniform_weight,thresh)
+        summary = build_summary(sentences,degree_centrality_prior,uniform_weight,thresh)
         with open(sums_path+ 'Ext-' + text_file,'r',encoding='Latin-1') as summary_file: #sums_path+ 'Ext-' + text_file
             MAP += AP(summary,summary_file.read())
         MAP /= len(source_texts)
