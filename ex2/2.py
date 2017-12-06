@@ -10,6 +10,21 @@ from sklearn.metrics.pairwise import cosine_similarity
 exec(open('../functions.py').read())
 exec(open('priors.py').read())
 exec(open('weights.py').read())
+tt=0
+weights1 = 0
+
+def build_graph_matrix(sentences,weight_func,t):
+     if not callable(weight_func):
+         return 'Not functions!'
+     nsents = len(sentences)
+     weights = np.zeros([nsents,nsents])
+     
+     cos_matrix = get_cosine_similarities_matrix(sentences)
+     #create weights
+     for i in range(len(sentences)):
+         for j in range(len(sentences)):
+             weights[i][j] = weight_func(i,j,sentences,cos_matrix,t)
+     return weights
 
 def build_priors(sentences,graph,prior_func):
 	if not callable(prior_func):
@@ -58,9 +73,10 @@ def get_top_n(array,n):
     return top
 
 def build_summary(sentences,prior_func,weight_func,t):
-
     weights = build_graph_matrix(sentences,weight_func,t)
+   # print(np.sum(weights))
     priors = build_priors(sentences,weights,prior_func)
+    #print(priors)
     ranks = rank(weights,priors,50,0.15)
     top = get_top_n(ranks,5)
     summary = ""
@@ -82,16 +98,22 @@ tvals = np.arange(0.0, 1.05, 0.05)
 source_texts = os.listdir(source_path)
 
 for thresh in tvals:
+    tt=thresh
+    print('---',tt)
     MAP = 0
     for text_file in source_texts:
         with open(source_path + text_file,'r',encoding='Latin-1') as file: #source_path + text_file
             text = file.read()
         sentences = text_to_sentences(text)
-        summary = build_summary(sentences,degree_centrality_prior,uniform_weight,thresh)
-        with open(sums_path+ 'Ext-' + text_file,'r',encoding='Latin-1') as summary_file: #sums_path+ 'Ext-' + text_file
+        summary = build_summary(sentences,uniform_prior,cos_sim_weight,thresh)
+        with open(source_path + text_file,'r',encoding='Latin-1') as summary_file: #sums_path+ 'Ext-' + text_file    '../ex1/textsum.txt'
             MAP += AP(summary,summary_file.read())
-        MAP /= len(source_texts)
+            #print(MAP)
+    MAP /= len(source_texts)
+    print(MAP)
     results.append(MAP)
+   # if tt==0.05:
+   #     break
 print(results)
 max = np.argmax(results)
 print("Best summary with MAP =",results[max],' for threshold =',tvals[max])

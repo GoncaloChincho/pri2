@@ -42,45 +42,30 @@ def get_cosine_similarities_matrix(sentences):
 
 #receives cossim matrix for performance reasons
 #receives indexes for performance reasons aswell...
+#also doubles as a weight, ignore t and sentences
 def cos_sim(sent1_index,sent2_index,cosine_matrix):
     return cosine_matrix[sent1_index][sent2_index]
 
 def degree_centrality(sent_index,sentences,t=0.2):
-	graph = build_graph_matrix(sentences,t)
+	graph = build_graph_uniform(sentences,t)
 	return degree_centrality_prior(sent_index,graph,sentences)
 
 
 
-#----------------------weights--------------------------------#
-def is_edge(sent1_index,sent2_index,cosine_matrix,t):
-	return (cos_sim(sent1_index,sent2_index,cosine_matrix) >= t) and (sent1_index != sent2_index)
 
-def uniform_weight(sent1_index,sent2_index,sentences,cosine_matrix,t):
-	if is_edge(sent1_index,sent2_index,cosine_matrix,t):
-		return 1
-	else:
-		return 0
-
-#---------------------priors---------------------------------#
-#receives graph matrix for convenience...
-def degree_centrality_prior(sent_index,graph,sentences):
-	links = graph[sent_index]
-	nonzero = np.nonzero(links)[0]
-	return len(nonzero)/len(links)
 
 
 #--------------------------graph building stuff------------------------#
-def build_graph_matrix(sentences,weight_func=uniform_weight,t=0.2):
+def build_graph_uniform(sentences,t=0.2):
     if not callable(weight_func):
         return 'Not functions!'
     nsents = len(sentences)
     weights = np.zeros([nsents,nsents])
-    
     cos_matrix = get_cosine_similarities_matrix(sentences)
     #create weights
     for i in range(len(sentences)):
         for j in range(len(sentences)):
-            weights[i][j] = weight_func(i,j,sentences,cos_matrix,t)
+            weights[i][j] = (cos_sim(sent1_index,sent2_index,cosine_matrix) >= t) and (sent1_index != sent2_index)
     return weights
 
 
