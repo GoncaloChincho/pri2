@@ -10,25 +10,28 @@ from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.linear_model import Perceptron
 debug = False
 
+def cosine_similarity_matrix(doc, sentences):
+    vec = TfidfVectorizer()
+    Y = vec.fit_transform([doc])
+    X = vec.fit_transform(sentences)
+    return cosine_similarity(X, Y)
+
 def files_to_features(path):
     onlyfiles = [f for f in listdir(path) if isfile(join(path, f))]
     features = []
     number_of_docs = 0
     for file in onlyfiles:
-        if(file == "a.txt"):
-            continue
         fp = open(path + '\\' + file, 'r')
         document = fp.read()
-        doc_lower = re.sub('(\.)?(\n)+','. ',document).lower()
-        vec = TfidfVectorizer()
-        Y = vec.fit_transform([doc_lower])
-        tokenizer = nltk.data.load('tokenizers/punkt/portuguese.pickle')
-        doc_lower = '\n-----\n'.join(tokenizer.tokenize(doc_lower))
-        sentences = doc_lower.split('\n-----\n')
         fp.close()
 
-        X = vec.fit_transform(sentences)
-        matrix = cosine_similarity(X, Y)
+        doc_lower = re.sub('(\.)?(\n)+', '. ', document).lower()
+
+        tokenizer = nltk.data.load('tokenizers/punkt/portuguese.pickle')
+        doc = '\n-----\n'.join(tokenizer.tokenize(doc_lower))
+        sentences = doc.split('\n-----\n')
+
+        matrix = cosine_similarity_matrix(doc_lower, sentences)
 
         for i in range(0, len(matrix)):
             features.append([i, matrix[i][0]])
@@ -64,7 +67,6 @@ def files_to_class(source_path, sums_path):
         sum_doc = '\n-----\n'.join(tokenizer.tokenize(sum_doc))
         sum_sentences = sum_doc.split('\n-----\n')
         fsum.close()
-        f = open('output.txt', 'w+')
 
         cl = [0 for k in range(len(src_sentences))]
         for i in range(0, len(src_sentences)):
@@ -72,38 +74,63 @@ def files_to_class(source_path, sums_path):
             for word in src_sentences[i].split():
                 count = 0
                 for smry in sum_sentences:
-                    if((smry in src_sentences[i]) or (src_sentences[i] in smry)):
-                        if(smry == "."):
-                            continue
+                    if(smry == src_sentences[i]):
                         cl[i] = 1
                         break
-                    if((word in smry) and (word not in stop)):
-                        count += 1
-                if(count > len(sum_sentences)*0.2):
-                    words_in_sum += 1
-            if(words_in_sum > len(src_sentences[i])*0.5):
-                cl[i] = 1
             classification.append(cl[i])
-        f.close()
+
         number_of_docs += 1
         if(debug):
             print("\n++++++++++++++++++++++\n")
-            print(source)
             print("\n++++++++++++++++++++++\n")
             if(number_of_docs == 1):
                 break
     return classification
 
-def train():
-    features = files_to_features('.\\train\\source')
-    cl = files_to_class('.\\train\\source', '.\\train\\sums')
-    if(len(features) != len(cl)):
-        print("Mismatch summaries and source files\n")
-        return -1
-    p = Perceptron()
-    model = p.fit(features, cl)
-    print(model.coef_)
-    return 0
+def files_to_sentences(path):
+    onlyfiles = [f for f in listdir(path) if isfile(join(path, f))]
+    sentences = []
+    for file in onlyfiles:
+        fp = open(path + '\\' + file, 'r')
+        document = fp.read()
+        fp.close()
+        document = re.sub('(\.)?(\n)+', '. ', document)
+        tokenizer = nltk.data.load('tokenizers/punkt/portuguese.pickle')
+        sentences.append(tokenizer.tokenize(document))
+    return sentences
 
-train()
-# files_to_class('.\\train\\source', '.\\train\\sums')
+def train():
+    train_ft = files_to_features('.\\train\\source')
+    cl = files_to_class('.\\train\\source', '.\\train\\sums')
+    if(len(train_ft) != len(cl)):
+        print("Mismatch summaries and source files\n")
+        return
+    model = Perceptron()
+    model.fit(train_ft, cl)
+    return model
+
+def summary():
+    model = train()
+    features = files_to_features('.\\source')
+    labels = model.predict(features)
+    corpus = files_to_sentences('.\\source')
+    candidates = []
+    shift = 0
+    for doc in corpus:
+        s = []
+        for i in range(0, len(doc)):
+            if(labels[i+shift] == 1):
+                s.append(doc[i])
+                if(len(s) == 5):
+                    break
+        candidates.append(s)
+        shift = len(doc)
+    return candidates
+
+f = open('output.txt', 'a')
+summaries = summary()
+for s in summaries:
+    for sentence in s:
+        f.write(sentence)
+        f.write("\n")
+f.close()
