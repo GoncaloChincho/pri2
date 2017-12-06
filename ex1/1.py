@@ -21,6 +21,7 @@ def build_graph_alist(documents,cosine_matrix,t):
         for j in range(len(cosine_matrix[i])):
             if cos_sim(i,j,cosine_matrix) >= t and i != j:
                 graph[id].append(str(j))
+    
     return graph
 
 def prestige(uid,ranks,links):
@@ -40,14 +41,15 @@ def rank(links,itermax,damping):
     while i < itermax:
         aux = pr
         for doc in links:
+            
             aux[doc] = (damping/ndocs) + ((1 - damping) * prestige(doc,pr,links))
+        
         pr = aux
         i += 1
     return pr
 
 def build_summary(sentences,t):
     S = get_cosine_similarities_matrix(sentences)
-
     graph = build_graph_alist(sentences,S,t)
 
     ranks = rank(graph,50,0.15)
