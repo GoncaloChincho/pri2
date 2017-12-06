@@ -4,7 +4,6 @@ import sys
 
 from nltk.stem.porter import *
 
-from functions import build_graph_alist, text_to_sentences, AP,stem_text,remove_stopwords
 
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
@@ -19,7 +18,7 @@ def build_graph_alist(documents,cosine_matrix,t):
         id = str(i)
         graph[id] = []
         for j in range(len(cosine_matrix[i])):
-            if cosine_matrix[i][j] >= t and i != j:
+            if cos_sim(i,j,cosine_matrix) >= t and i != j:
                 graph[id].append(str(j))
     return graph
 
@@ -46,10 +45,7 @@ def rank(links,itermax,damping):
     return pr
 
 def build_summary(sentences):
-    vec = TfidfVectorizer()
-
-    X = vec.fit_transform(sentences)
-    S = cosine_similarity(X)
+    S = get_cosine_similarities_matrix(sentences)
 
     graph = build_graph_alist(sentences,S,0.05)
 

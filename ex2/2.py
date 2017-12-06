@@ -12,25 +12,29 @@ exec(open('priors.py').read())
 exec(open('weights.py').read())
 
 
-def build_graph_matrix(sentences,prior_func,weight_func):
+def build_graph_matrix(sentences,prior_func,weight_func,t):
     if not (callable(prior_func) and callable(weight_func)):
         return 'Not functions!'
     nsents = len(sentences)
     weights = np.zeros([nsents,nsents])
     priors = np.zeros(nsents)
+    cos_matrix = get_cosine_similarities_matrix(sentences)
     #create prior_weights
     for i in range(len(sentences)):
         priors[i] = prior_func(sentences[i],sentences)
     #create weights
     for i in range(len(sentences)):
         for j in range(len(sentences)):
-            weights[i][j] = weight_func(sentences[i],sentences[j],sentences)
+            weights[i][j] = weight_func(i,j,sentences,cos_matrix,t)
     return (weights,priors)
 
 def prestige(sentence_index,ranks,weights):
     sum = 0
     for j in range(len(weights[sentence_index])):
-        sum += (ranks[j] * weights[sentence_index][j]) / np.sum(weights[j])
+    	if weights[sentence_index,j]== 0:
+    		continue
+    	else:
+        	sum += (ranks[j] * weights[sentence_index][j]) / np.sum(weights[j])
     return sum
 
 def rank(weights,priors,itermax,damping):
@@ -55,9 +59,9 @@ def get_top_n(array,n):
         top[str(i)] = (array[indexes[i]])
     return top
 
-def build_summary(sentences,prior_func,weight_func):
+def build_summary(sentences,prior_func,weight_func,t):
 
-    box = build_graph_matrix(sentences,prior_func,weight_func)
+    box = build_graph_matrix(sentences,prior_func,weight_func,t)
     weights = box[0]
     priors = box[1]
     ranks = rank(weights,priors,50,0.15)
@@ -74,13 +78,14 @@ else:
 	source_path = '../TeMario/source/'
 	sums_path = '../TeMario/sums/'
 
+t = 0.2
 source_texts = os.listdir(source_path)
 MAP = 0
 for text_file in source_texts:
 	with open(source_path + text_file,'r',encoding='latin-1') as file:
 	    text = file.read()
 	sentences = text_to_sentences(text)
-	summary = build_summary(sentences,uniform_prior,uniform_weight)
+	summary = build_summary(sentences,uniform_prior,uniform_weight,t)
 	with open(sums_path+ 'Ext-' + text_file,'r',encoding='latin-1') as summary_file:
 		MAP += AP(summary,summary_file.read())
 MAP /= len(source_texts)

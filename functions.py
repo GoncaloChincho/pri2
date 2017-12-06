@@ -36,16 +36,13 @@ def AP(systemSummaries, targetSummaries):
 def get_cosine_similarities_matrix(sentences):	
 	vec = TfidfVectorizer()
 
-    X = vec.fit_transform(sentences)
-    return cosine_similarity(X)
+	X = vec.fit_transform(sentences)
+	return cosine_similarity(X)
 
 #receives cossim matrix for performance reasons
 #receives indexes for performance reasons aswell...
-def cos_sim(sent1_index,sent2_index,sentences,cosine_matrix):
+def cos_sim(sent1_index,sent2_index,cosine_matrix):
     return cosine_matrix[sent1_index][sent2_index]
-
-
-
 
 #-----------------Not being used---------------------------#
 def stem_sentence(sentence):
