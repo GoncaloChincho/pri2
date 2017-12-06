@@ -12,21 +12,31 @@ exec(open('priors.py').read())
 exec(open('weights.py').read())
 
 
-def build_graph_matrix(sentences,prior_func,weight_func,t):
-    if not (callable(prior_func) and callable(weight_func)):
+def build_graph_matrix(sentences,weight_func,t):
+    if not callable(weight_func):
         return 'Not functions!'
     nsents = len(sentences)
     weights = np.zeros([nsents,nsents])
-    priors = np.zeros(nsents)
+    
     cos_matrix = get_cosine_similarities_matrix(sentences)
-    #create prior_weights
-    for i in range(len(sentences)):
-        priors[i] = prior_func(sentences[i],sentences)
+    
     #create weights
     for i in range(len(sentences)):
         for j in range(len(sentences)):
             weights[i][j] = weight_func(i,j,sentences,cos_matrix,t)
-    return (weights,priors)
+    return weights
+
+def build_priors(sentences,graph,prior_func):
+	if not callable(prior_func):
+		return 'Not functions!'
+	nsents = graph.shape[0]
+	priors = np.zeros(nsents)
+
+	for i in range(nsents):
+		priors[i] = prior_func(i,graph,sentences)
+	return priors
+
+
 
 def prestige(sentence_index,ranks,weights):
     sum = 0
@@ -61,9 +71,8 @@ def get_top_n(array,n):
 
 def build_summary(sentences,prior_func,weight_func,t):
 
-    box = build_graph_matrix(sentences,prior_func,weight_func,t)
-    weights = box[0]
-    priors = box[1]
+    weights = build_graph_matrix(sentences,weight_func,t)
+    priors = build_priors(sentences,weights,prior_func)
     ranks = rank(weights,priors,50,0.15)
     top = get_top_n(ranks,5)
     summary = ""
@@ -85,7 +94,7 @@ for text_file in source_texts:
 	with open(source_path + text_file,'r',encoding='latin-1') as file:
 	    text = file.read()
 	sentences = text_to_sentences(text)
-	summary = build_summary(sentences,uniform_prior,uniform_weight,t)
+	summary = build_summary(sentences,degree_centrality,uniform_weight,t)
 	with open(sums_path+ 'Ext-' + text_file,'r',encoding='latin-1') as summary_file:
 		MAP += AP(summary,summary_file.read())
 MAP /= len(source_texts)

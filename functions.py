@@ -10,7 +10,7 @@ cachedStopWords = stopwords.words("english")
 
 #returns array of sentences
 def text_to_sentences(text):
-	text = re.sub('(\.)?(\n)+','. ',text).lower()
+	text = re.sub('(\w)(\\n)+', r'\1. ',text)
 	tokenizer = nltk.data.load('tokenizers/punkt/english.pickle')
 
 	text = '\n-----\n'.join(tokenizer.tokenize(text))
