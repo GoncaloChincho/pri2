@@ -32,8 +32,17 @@ def AP(systemSummaries, targetSummaries):
 			AP += positives/ total
 	return AP/len(targetSents)
 
+#sentences is a list, returns cossim matrix
+def get_cosine_similarities_matrix(sentences):	
+	vec = TfidfVectorizer()
 
+    X = vec.fit_transform(sentences)
+    return cosine_similarity(X)
 
+def cos_sim(sentence1,sentence2,sentences,cosine_matrix):
+    s1i = sentences.index(sentence1)
+    s2i = sentences.index(sentence2)
+    return cosine_matrix[s1i][s2i]
 
 
 
