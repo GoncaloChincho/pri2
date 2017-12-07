@@ -14,7 +14,8 @@ import numpy as np
 debug = False
 
 def cosine_similarity_matrix(doc, sentences):
-    vec = TfidfVectorizer()
+    stop = nltk.corpus.stopwords.words('portuguese')
+    vec = TfidfVectorizer(stop_words=stop)
     Y = vec.fit_transform([doc])
     X = vec.fit_transform(sentences)
     return cosine_similarity(X, Y)
@@ -35,8 +36,9 @@ def files_to_features(path):
         sentences = doc.split('\n-----\n')
 
         matrix = cosine_similarity_matrix(doc_lower, sentences)
+
         for i in range(0, len(sentences)):
-            graph_cent = functions.degree_centrality(i,sentences,t=0.2)
+            graph_cent = functions.degree_centrality(i, sentences, t=0.2)
             features.append([i, matrix[i][0], graph_cent])
 
         number_of_docs += 1
@@ -141,19 +143,27 @@ def summary():
     #perceptron
     model = train_perceptron(train_ft3, cl)
     labels = model.predict(features)
+
     #summary
     corpus = files_to_sentences('.\\source')
     candidates = []
     shift = 0
+    d = 0
     for doc in corpus:
         s = []
+        out = ""
         for i in range(0, len(doc)):
             if(labels[i+shift] == 1):
                 s.append(doc[i])
+                out += doc[i] + "\n"
                 if(len(s) == 5):
                     break
+        f = open('.\\outs\\out' + str(d) + '.txt', 'w', encoding='latin-1')
+        f.write(out)
+        f.close()
         candidates.append(s)
         shift = len(doc)
+        d += 1
     return candidates
 
 summaries = summary()
