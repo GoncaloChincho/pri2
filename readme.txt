@@ -8,4 +8,5 @@ Ex2:
 	prior_method : degree_centrality_prior | sentence_position_prior (default) | uniform_prior
 	weights_method : uniform_weight | cos_sim_weight (default
 
-
+Ex4:
+    python 4.py
