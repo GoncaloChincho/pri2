@@ -1,3 +1,4 @@
+import sys
 from os import listdir
 from os.path import isfile, join
 import re
@@ -12,6 +13,17 @@ from sklearn.naive_bayes import GaussianNB
 import functions
 import numpy as np
 debug = False
+
+if '-d' in sys.argv:
+    goal_source = sys.argv[(sys.argv).index('-d') + 1]
+    goal_sums = sys.argv[(sys.argv).index('-d') + 2]
+    train_source = sys.argv[(sys.argv).index('-d') + 3]
+    train_sums = sys.argv[(sys.argv).index('-d') + 4]
+else:
+    goal_source = '.\\source'
+    goal_sums = '.\\sums'
+    train_source = '.\\train\\source'
+    train_sums = '.\\train\\sums'
 
 def cosine_similarity_matrix(doc, sentences):
     stop = nltk.corpus.stopwords.words('portuguese')
@@ -129,15 +141,15 @@ def train_naive_bayes(train_ft, cl):
 def get_features_with_NB(model, features):
     probs = model.predict_proba(features)
     for i in range(0, len(features)):
-        features[i].append(probs[i][1])
+        features[i].append(probs[i][0])
     return features
 
 
 def summary():
-    train_ft3 = files_to_features('.\\train\\source')
-    cl = files_to_class('.\\train\\source', '.\\train\\sums')
+    train_ft3 = files_to_features(train_source)
+    cl = files_to_class(train_source, train_sums)
     #naive-bayes
-    part_ft = files_to_features('.\\source')
+    part_ft = files_to_features(goal_source)
     modelNB = train_naive_bayes(train_ft3, cl)
     features = get_features_with_NB(modelNB, part_ft)
     #perceptron
@@ -145,7 +157,7 @@ def summary():
     labels = model.predict(features)
 
     #summary
-    corpus = files_to_sentences('.\\source')
+    corpus = files_to_sentences(goal_source)
     candidates = []
     shift = 0
     d = 0
@@ -172,7 +184,7 @@ for doc in summaries:
     for sentence in doc:
         sum_text += sentence + "\n"
 
-golden = files_to_sentences('.\\sums')
+golden = files_to_sentences(goal_sums)
 golden_text = ""
 for doc in golden:
     for sentence in doc:
