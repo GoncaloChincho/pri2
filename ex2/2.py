@@ -77,7 +77,9 @@ def build_summary(sentences,prior_func,weight_func,t):
    # print(np.sum(weights))
     priors = build_priors(sentences,weights,prior_func)
     #print(priors)
+    #print(np.sum(priors))
     ranks = rank(weights,priors,50,0.15)
+    #print(ranks)
     top = get_top_n(ranks,5)
     summary = ""
     for i in top:
@@ -105,10 +107,9 @@ for thresh in tvals:
         with open(source_path + text_file,'r',encoding='Latin-1') as file: #source_path + text_file
             text = file.read()
         sentences = text_to_sentences(text)
-        summary = build_summary(sentences,uniform_prior,uniform_weight,thresh)
-        with open(source_path + text_file,'r',encoding='Latin-1') as summary_file: #sums_path+ 'Ext-' + text_file    '../ex1/textsum.txt'
+        summary = build_summary(sentences,uniform_prior,cos_sim_weight,thresh)
+        with open(sums_path+ 'Ext-' + text_file ,'r',encoding='Latin-1') as summary_file: #sums_path+ 'Ext-' + text_file    '../ex1/textsum.txt'
             MAP += AP(summary,summary_file.read())
-            #print(MAP)
     MAP /= len(source_texts)
     print(MAP)
     results.append(MAP)

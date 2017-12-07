@@ -7,7 +7,7 @@ from nltk.corpus import stopwords
 from nltk.stem.porter import *
 from wordsegment import load, segment
 
-cachedStopWords = stopwords.words("english")
+cachedStopWords = nltk.corpus.stopwords.words('portuguese')
 
 #returns array of sentences
 def text_to_sentences(text):
@@ -35,7 +35,7 @@ def AP(systemSummaries, targetSummaries):
 
 #sentences is a list, returns cossim matrix
 def get_cosine_similarities_matrix(sentences):	
-	vec = TfidfVectorizer(stop_words='english')
+	vec = TfidfVectorizer(stop_words=cachedStopWords)
 
 	X = vec.fit_transform(sentences)
 	return cosine_similarity(X)

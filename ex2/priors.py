@@ -1,3 +1,5 @@
+import numpy as np 
+
 def uniform_prior(sent_index,graph,sentences):
     return 1/len(sentences)
 
@@ -18,5 +20,5 @@ def degree_centrality_prior(sent_index,graph,sentences):
 def sentence_position_prior(sent_index,graph,sentences):
 	total = 0
 	for i in range(len(sentences)):
-		total += 1
-	return (sent_index + 1) / total
+		total += (i + 1)
+	return (len(sentences) -  (sent_index)) / total
