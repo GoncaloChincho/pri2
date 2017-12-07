@@ -3,6 +3,20 @@ def uniform_prior(sent_index,graph,sentences):
 
 #receives graph matrix for convenience...
 def degree_centrality_prior(sent_index,graph,sentences):
-	links = graph[sent_index]
-	nonzero = np.nonzero(links)[0]
-	return len(nonzero)/len(links)
+	total_links = 0
+	degree = 0 
+	for i in range(len(graph)):
+		nonzeros = len(np.nonzero(graph[i])[0])
+		if i == sent_index:
+			degree = nonzeros
+		total_links += nonzeros
+	if total_links == 0:
+		return 0
+	return degree/total_links
+
+
+def sentence_position_prior(sent_index,graph,sentences):
+	total = 0
+	for i in range(len(sentences)):
+		total += 1
+	return (sent_index + 1) / total

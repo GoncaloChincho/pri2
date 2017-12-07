@@ -105,7 +105,7 @@ for thresh in tvals:
         with open(source_path + text_file,'r',encoding='Latin-1') as file: #source_path + text_file
             text = file.read()
         sentences = text_to_sentences(text)
-        summary = build_summary(sentences,uniform_prior,cos_sim_weight,thresh)
+        summary = build_summary(sentences,uniform_prior,uniform_weight,thresh)
         with open(source_path + text_file,'r',encoding='Latin-1') as summary_file: #sums_path+ 'Ext-' + text_file    '../ex1/textsum.txt'
             MAP += AP(summary,summary_file.read())
             #print(MAP)
