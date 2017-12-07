@@ -10,6 +10,8 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.linear_model import Perceptron
 from sklearn.naive_bayes import GaussianNB
+from sklearn.naive_bayes import MultinomialNB
+from sklearn.naive_bayes import BernoulliNB
 import functions
 import numpy as np
 debug = False
@@ -134,14 +136,14 @@ def train_naive_bayes(train_ft, cl):
     if(len(train_ft) != len(cl)):
         print("Mismatch summaries and source files\n")
         return
-    model = GaussianNB()
+    model = MultinomialNB()
     model.fit(train_ft, cl)
     return model
 
 def get_features_with_NB(model, features):
-    probs = model.predict_proba(features)
+    probs = model.predict_log_proba(features)
     for i in range(0, len(features)):
-        features[i].append(probs[i][0])
+        features[i].append(probs[i][1])
     return features
 
 
