@@ -8,4 +8,6 @@ Ex2:
 	prior_method : degree_centrality_prior | sentence_position_prior (default) | uniform_prior
 	weights_method : uniform_weight | cos_sim_weight (default
 
-
+Ex3:		
+	python 3.py [-d source_texts_folder_path ideal_summary_folder_path training_source_texts_folder_path training_ideal_summary_folder_path]
+	Will use our chosen input files and summary files by default, as well as training input and summary files.
