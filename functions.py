@@ -11,7 +11,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 import priors
 
 cachedStopWords = nltk.corpus.stopwords.words('portuguese')
-
+#nltk.download('rslp')
 #returns array of sentences
 def text_to_sentences(text):
 	text = re.sub('(\w)(\\n)+', r'\1. ',text)
@@ -38,7 +38,7 @@ def AP(systemSummaries, targetSummaries):
 
 #sentences is a list, returns cossim matrix
 def get_cosine_similarities_matrix(sentences):	
-	vec = TfidfVectorizer(stop_words=cachedStopWords)
+	vec = TfidfVectorizer()#stop_words=cachedStopWords)
 
 
 	X = vec.fit_transform(sentences)
@@ -75,7 +75,7 @@ def build_graph_uniform(sentences,t=0.2):
 
 #-----------------Not being used---------------------------#
 def stem_sentence(sentence):
-    stemmer = PorterStemmer()
+    stemmer = nltk.stem.RSLPStemmer()
     load()
     stemmed = ""
     sentence = segment(sentence)
@@ -85,7 +85,7 @@ def stem_sentence(sentence):
 
 #returns list of sentences
 def stem_text(text):
-    text = re.sub("([a-zA-Z0-9])’[a-zA-Z0-9]",r'\1',text)
+    #text = re.sub("([a-zA-Z0-9])’[a-zA-Z0-9]",r'\1',text)
     sentences = text_to_sentences(text)
     stemmed = []
     for sentence in sentences:
