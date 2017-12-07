@@ -6,6 +6,9 @@ import numpy as np
 from nltk.corpus import stopwords
 from nltk.stem.porter import *
 from wordsegment import load, segment
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.metrics.pairwise import cosine_similarity
+import priors
 
 cachedStopWords = nltk.corpus.stopwords.words('portuguese')
 
@@ -37,6 +40,7 @@ def AP(systemSummaries, targetSummaries):
 def get_cosine_similarities_matrix(sentences):	
 	vec = TfidfVectorizer(stop_words=cachedStopWords)
 
+
 	X = vec.fit_transform(sentences)
 	return cosine_similarity(X)
 
@@ -48,7 +52,7 @@ def cos_sim(sent1_index,sent2_index,cosine_matrix):
 
 def degree_centrality(sent_index,sentences,t=0.2):
 	graph = build_graph_uniform(sentences,t)
-	return degree_centrality_prior(sent_index,graph,sentences)
+	return priors.degree_centrality_prior(sent_index,graph,sentences)
 
 
 
@@ -57,15 +61,13 @@ def degree_centrality(sent_index,sentences,t=0.2):
 
 #--------------------------graph building stuff------------------------#
 def build_graph_uniform(sentences,t=0.2):
-    if not callable(weight_func):
-        return 'Not functions!'
     nsents = len(sentences)
     weights = np.zeros([nsents,nsents])
     cos_matrix = get_cosine_similarities_matrix(sentences)
     #create weights
     for i in range(len(sentences)):
         for j in range(len(sentences)):
-            weights[i][j] = (cos_sim(sent1_index,sent2_index,cosine_matrix) >= t) and (sent1_index != sent2_index)
+            weights[i][j] = (cos_sim(i,j,cos_matrix) >= t) and (i != j)
     return weights
 
 
