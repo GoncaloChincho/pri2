@@ -1,10 +1,10 @@
 import nltk
 import nltk.data
 import sys
+import numpy as np
 
 from nltk.stem.porter import *
 
-from functions import build_graph_alist, text_to_sentences, AP,stem_text,remove_stopwords
 
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
@@ -19,8 +19,9 @@ def build_graph_alist(documents,cosine_matrix,t):
         id = str(i)
         graph[id] = []
         for j in range(len(cosine_matrix[i])):
-            if cosine_matrix[i][j] >= t and i != j:
+            if cos_sim(i,j,cosine_matrix) >= t and i != j:
                 graph[id].append(str(j))
+    
     return graph
 
 def prestige(uid,ranks,links):
@@ -40,18 +41,16 @@ def rank(links,itermax,damping):
     while i < itermax:
         aux = pr
         for doc in links:
+            
             aux[doc] = (damping/ndocs) + ((1 - damping) * prestige(doc,pr,links))
+        
         pr = aux
         i += 1
     return pr
 
-def build_summary(sentences):
-    vec = TfidfVectorizer()
-
-    X = vec.fit_transform(sentences)
-    S = cosine_similarity(X)
-
-    graph = build_graph_alist(sentences,S,0.05)
+def build_summary(sentences,t):
+    S = get_cosine_similarities_matrix(sentences)
+    graph = build_graph_alist(sentences,S,t)
 
     ranks = rank(graph,50,0.15)
 
@@ -83,16 +82,28 @@ sentences = text_to_sentences(text)
 #stem_stopwords = stem_text(remove_stopwords(text))
 
 #Basic
-basic_summary = build_summary(sentences)
+
 #stemmed_summary = build_summary(stemmed_sentences)
 #stopwords_summary = build_summary(stem_stopwords)
 
 with open(target_filename,'r') as target_file:
     target_text = target_file.read()
 
-print("SUMMARY\n")
-print(basic_summary)
-print("Average Precision: ", AP(basic_summary,target_text))
+results = []
+summaries = []
+tvals = np.arange(0.0, 1.05, 0.05)
+for thresh in tvals:
+    summary = build_summary(sentences,thresh)
+    ap = AP(summary,target_text)
+    results.append(ap)
+    summaries.append(summary)
+
+max = np.argmax(results)
+print("Best summary with AP =",results[max],' for threshold =',tvals[max])
+print("#-----------------------------------#")
+print(summaries[max])
+
+
 #print("\n######## STEMMED SUMMARY #######\n")
 #print(stemmed_summary)
 #print("Average Precision Stemmed: ", AP(stemmed_summary,target_text))
